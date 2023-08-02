@@ -1,0 +1,22 @@
+/* Customer.css */
+.customer-row {
+  border-bottom: 1px solid #ccc;
+}
+
+.customer-data {
+  padding: 10px;
+}
+
+.customer-data button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.customer-data button:hover {
+  background-color: #0056b3;
+}

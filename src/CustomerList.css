@@ -1,0 +1,50 @@
+/* CustomerList.css */
+.customer-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.customer-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-customer-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-customer-button:hover {
+  background-color: #0056b3;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.customer-table th {
+  font-weight: bold;
+}
+
+.customer-table td {
+  font-size: 16px;
+}
+
+.customer-table tr:last-child td {
+  border-bottom: none;
+}
